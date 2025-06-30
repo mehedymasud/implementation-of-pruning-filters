@@ -179,9 +179,9 @@ if __name__ == '__main__':
         from netModels.ResNet34 import MyResNet34
         net = MyResNet34()
         print(net)
-    elif args.net == 'resnet56':
-        from netModels.ResNet56 import MyResNet56
-        net = MyResNet56()
+    elif args.net == 'resnet50':
+        from netModels.ResNet50 import MyResNet50
+        net = MyResNet50()
         print(net)
     else:
         print('We don\'t support this net.')
